@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/OrangeStart"
+        android:endColor="@color/orange_end"
+        android:angle="45"/> <!-- Başlangıç ve bitiş renkleri arasında bir gradient oluşturur. angle özelliği gradientin yönünü belirtir. -->
+    <corners android:radius="50dp"/>
+</shape>

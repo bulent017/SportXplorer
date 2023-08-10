@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".FragmentSports">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024">
+
+        <TextView
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sourcesans3_semibold"
+            android:text="What sport do you interest?"
+            android:textColor="@color/white"
+            android:textSize="35sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/sourcesans3_regular"
+            android:layout_marginBottom="60dp"
+            android:text="What sport do you interest?"
+            android:textColor="@color/light_grey_2"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/soccerButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circular_button_state"
+                    android:padding="30dp"
+                    android:src="@drawable/soccer">
+
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/sourcesans3_semibold"
+                    android:text="Soccer"
+                    android:textColor="@color/white"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/basketballButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circular_button_state"
+                    android:padding="30dp"
+                    android:src="@drawable/basketball">
+
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/sourcesans3_semibold"
+                    android:text="Basketball"
+                    android:layout_marginTop="5dp"
+
+                    android:textColor="@color/white"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/footballButon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circular_button_state"
+                    android:padding="30dp"
+                    android:src="@drawable/football_american">
+
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+
+                    android:fontFamily="@font/sourcesans3_semibold"
+                    android:text="Football"
+                    android:textColor="@color/white"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/baseballButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circular_button_state"
+                    android:padding="30dp"
+                    android:src="@drawable/baseball">
+
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+
+                    android:fontFamily="@font/sourcesans3_semibold"
+                    android:text="Baseball"
+                    android:textColor="@color/white"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/tennisButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circular_button_state"
+                    android:padding="30dp"
+                    android:src="@drawable/tennis">
+
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/sourcesans3_semibold"
+                    android:text="Tennis"
+                    android:textColor="@color/white"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/volleyballButon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circular_button_state"
+                    android:padding="30dp"
+                    android:src="@drawable/volly">
+
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/sourcesans3_semibold"
+                    android:text="Volleyball"
+                    android:textColor="@color/white"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/Blue"
+            android:text="Continue"
+            android:textColor="@color/white"
+            app:cornerRadius="20dp"
+            android:fontFamily="@font/sourcesans3_semibold"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            app:layout_constraintVertical_bias="0.38" />
+
+        <TextView
+            android:id="@+id/skipButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/my_ripple_efekt"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:focusable="true"
+            android:fontFamily="@font/sourcesans3_regular"
+            android:padding="0dp"
+            android:text="Skip"
+            android:textColor="@color/white"
+            android:textSize="20sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

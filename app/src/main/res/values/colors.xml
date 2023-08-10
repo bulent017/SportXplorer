@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="GreyLight">#FFC4C4C4</color>
+    <color name="DarkGray">#FF65656B</color>
+    <color name="Blue">#FF246BFD</color>
+    <color name="OrangeStart">#FFF4A58A</color>
+    <color name="orange_end">#FFED6B4E</color>
+    <color name="black_light">#FF222232</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_color">#181829</color>
+    <color name="line_color">#383846</color>
+    <color name="light_grey_2">#65656B</color>
+    <color name="light_blue">#87BAE8</color>
+
+
+    383846
+</resources>
